@@ -18,6 +18,6 @@ $nama = "biagiiiiii";
 $ac = "aku sehat";
 $ab = "selam";
 
-echo "$nama $ac $ab";
+echo "$nama <br> $ac $ab";
 
 ?>
