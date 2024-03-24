@@ -33,7 +33,7 @@ $makanan = ["🥐","🍟","🌭","🍿","🍞"]
 
     <h3>Daftar Bianatang</h3>
     <ol>
-        <?php foreach($as $b) { ?> 
+        <?php foreach($binatang as $b) { ?> 
             <li><?php echo $b; ?></li>
             <?php } ?>
     </ol>
@@ -41,7 +41,7 @@ $makanan = ["🥐","🍟","🌭","🍿","🍞"]
 
     <h3>Daftar Makanan</h3>
     <ol>
-    <?php foreach($binatang as $b) : ?> 
+    <?php foreach ($makanan as $b) : ?> 
             <li><? $b; ?></li>
             <?php endforeach; ?>
 
